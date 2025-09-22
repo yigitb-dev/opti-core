@@ -6,7 +6,7 @@ class organize:
         self.directory = directory
         self.users = users_folder
     
-    def downloads_organizer():
+    def downloads_organizer(self):
         for user in self.users:
             downloads_path = os.path.join(r"C:\Users", user, "Downloads")
             if os.path.exists(downloads_path):
